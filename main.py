@@ -26,7 +26,7 @@ if submit_button:
         st.warning("Please fill in all of the fields")
     else:
         st.balloons()
-        st.write("## Personal Information")
+        st.write("## User Information")
         
         for key, value in form_values.items():
             st.write(f"{key}: {value}")
